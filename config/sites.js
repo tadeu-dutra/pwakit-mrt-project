@@ -30,7 +30,7 @@ module.exports = [
     {
         id: 'MULTISITE',
         l10n: {
-            supportedCurrencies: ['USD', 'GBP'],
+            supportedCurrencies: ['USD', 'GBP', 'EUR'],
             defaultCurrency: 'USD',
             defaultLocale: 'en-US',
             supportedLocales: [
@@ -43,6 +43,11 @@ module.exports = [
                     id: 'en-GB',
                     alias: 'gb',
                     preferredCurrency: 'GBP'
+                },
+                {
+                    id: 'fr-FR',
+                    alias: 'fr',
+                    preferredCurrency: 'EUR'
                 }
             ]
         }
@@ -51,7 +56,7 @@ module.exports = [
         id: 'RefArchGlobal',
         l10n: {
             supportedCurrencies: ["CHY", "GBP", "EUR", "JPY", "BRL"],
-            defaultCurrency: "GBP",
+            defaultCurrency: "BRL",
             supportedLocales: [
                 {
                     id: "zh-CN",
@@ -76,11 +81,10 @@ module.exports = [
                 },
                 {
                     id: "pt-BR",
-                    alias: "brazil",
                     preferredCurrency: "BRL"
-                },
+                }
             ],
-            defaultLocale: "en-GB"
+            defaultLocale: "pt-BR"
         }
     }
 ]
