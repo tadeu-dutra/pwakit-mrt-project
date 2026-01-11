@@ -56,7 +56,7 @@ module.exports = [
         id: 'RefArchGlobal',
         l10n: {
             supportedCurrencies: ["CHY", "GBP", "EUR", "JPY", "BRL"],
-            defaultCurrency: "GBP",
+            defaultCurrency: "BRL",
             supportedLocales: [
                 {
                     id: "zh-CN",
@@ -81,11 +81,10 @@ module.exports = [
                 },
                 {
                     id: "pt-BR",
-                    alias: "brazil",
                     preferredCurrency: "BRL"
                 }
             ],
-            defaultLocale: "en-GB"
+            defaultLocale: "pt-BR"
         }
     }
 ]
