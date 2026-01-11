@@ -30,7 +30,7 @@ module.exports = [
     {
         id: 'MULTISITE',
         l10n: {
-            supportedCurrencies: ['USD', 'GBP'],
+            supportedCurrencies: ['USD', 'GBP', 'EUR'],
             defaultCurrency: 'USD',
             defaultLocale: 'en-US',
             supportedLocales: [
@@ -45,9 +45,9 @@ module.exports = [
                     preferredCurrency: 'GBP'
                 },
                 {
-                    id: "fr-FR",
+                    id: 'fr-FR',
                     alias: 'fr',
-                    preferredCurrency: "EUR"
+                    preferredCurrency: 'EUR'
                 }
             ]
         }
@@ -83,7 +83,7 @@ module.exports = [
                     id: "pt-BR",
                     alias: "brazil",
                     preferredCurrency: "BRL"
-                },
+                }
             ],
             defaultLocale: "en-GB"
         }
