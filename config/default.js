@@ -39,7 +39,7 @@ module.exports = {
             // Determine where the localeRef is located. Valid values include 'path|query_param|none'. Defaults to: 'none'
             locale: 'path',
             // This boolean value dictates whether or not default site or locale values are shown in the url. Defaults to: false
-            showDefaults: true,
+            // showDefaults: true,
             // This boolean value dictates whether the plus sign (+) is interpreted as space for query param string. Defaults to: false
             interpretPlusSignAsSpace: false
         },
@@ -75,7 +75,7 @@ module.exports = {
             }
         },
         // The default site for your app. This value will be used when a siteRef could not be determined from the url
-        defaultSite: 'MULTISITE',
+        defaultSite: 'RefArch',
         // Provide aliases for your sites. These will be used in place of your site id when generating paths throughout the application.
         siteAliases: {
            RefArch: 'us',
@@ -91,7 +91,7 @@ module.exports = {
                 clientId: '9b6684b2-d26f-45c4-a342-65277c36829e',
                 organizationId: 'f_ecom_zzpe_109',
                 shortCode: 'kv7kzm78',
-                siteId: 'MULTISITE'
+                siteId: 'RefArch'
             }
         },
         // Einstein api config
