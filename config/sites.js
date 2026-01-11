@@ -49,9 +49,8 @@ module.exports = [
             defaultCurrency: "GBP",
             supportedLocales: [
                 {
-                    id: "de-DE",
-                    alias: "de",
-                    preferredCurrency: "EUR"
+                    id: "zh-CN",
+                    preferredCurrency: "CHY"
                 },
                 {
                     id: "en-GB",
@@ -59,8 +58,17 @@ module.exports = [
                 },
                 {
                     id: "ja-JP",
+                    alias: "jp",
                     preferredCurrency: "JPY"
-                }
+                },
+                {
+                    id: "fr-FR",
+                    preferredCurrency: "EUR"
+                },
+                {
+                    id: "it-IT",
+                    preferredCurrency: "EUR"
+                },
             ],
             defaultLocale: "en-GB"
         }
