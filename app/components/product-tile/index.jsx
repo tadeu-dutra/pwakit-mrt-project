@@ -183,7 +183,12 @@ const ProductTile = (props) => {
 
     return (
         <Box {...styles.container}>
-            <Link data-testid="product-tile" to={productUrl} {...styles.link} {...rest}>
+            <Link 
+                data-testid="product-tile" 
+                to={productUrlBuilder({id: productId}, intl.local)} 
+                {...styles.link} 
+                style={{opacity: product?.c_inBasket ? 0.25 : 1}}
+                {...rest}>
                 <Box {...styles.imageWrapper}>
                     <AspectRatio {...styles.image}>
                         <DynamicImage
