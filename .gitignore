@@ -20,7 +20,6 @@ build/
 cache-hash-config.json
 .env
 dw.json
-
 # GitHub Actions (Node.js) require built artifacts to be committed.
 # Runners do not run `npm install` for actions; `runs.main`/`runs.post` must point to files in `dist/`.
 # We generally ignore all dist directories, but allow the action’s dist so the action can execute.

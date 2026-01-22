@@ -1,7 +1,0 @@
-{
-    "hostname": "${DW_HOSTNAME}",
-    "username": "${DW_USERNAME}",
-    "version": "${DW_VERSION}",
-    "password": "${DW_PASSWORD}",
-    "cartridgesPath": "${DW_CARTRIDGES_PATH}"
-}
