@@ -56,3 +56,14 @@ The full documentation for PWA Kit and Managed Runtime is hosted on the [Salesfo
 -   [Routing](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/routing.html)
 -   [Phased Headless Rollouts](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/phased-headless-rollouts.html)
 -   [Launch Your Storefront](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/launching-your-storefront.html)
+
+## Recent Changes
+
+This project has been updated as part of the B2C Composable Commerce Implementation Expert Workshop activities:
+
+- **Activity 2.1: Working with Hooks** - Implemented and integrated custom React hooks for enhanced component functionality and state management.
+- **Configuration Security** - Added `dw.json` to `.gitignore` to prevent accidental commit of sensitive SFCC deployment credentials.
+- **SFCC Deployment Setup** - Configured `dw.json` with proper hostname, username, password, version, and cartridges path for Managed Runtime deployment.
+- **UI Enhancements** - Updated product tile component to visually indicate items already in the basket using opacity styling for better user experience.
+
+For the latest deployment, run `npm run push` to upload changes to the Managed Runtime environment.
