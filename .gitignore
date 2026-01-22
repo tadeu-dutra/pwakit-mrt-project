@@ -19,6 +19,7 @@ build/
 .cursor/
 cache-hash-config.json
 .env
+dw.json
 
 # GitHub Actions (Node.js) require built artifacts to be committed.
 # Runners do not run `npm install` for actions; `runs.main`/`runs.post` must point to files in `dist/`.
