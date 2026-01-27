@@ -62,8 +62,10 @@ The full documentation for PWA Kit and Managed Runtime is hosted on the [Salesfo
 This project has been updated as part of the B2C Composable Commerce Implementation Expert Workshop activities:
 
 - **Activity 2.1: Working with Hooks** - Implemented and integrated custom React hooks for enhanced component functionality and state management.
+- **Activity 2.2: Custom APIs** - Added `plugin_custom_api` cartridge with complete SFCC cartridge structure including controllers, scripts, pipelines, REST APIs, forms, and templates for extending storefront functionality.
 - **Configuration Security** - Added `dw.json` to `.gitignore` to prevent accidental commit of sensitive SFCC deployment credentials.
 - **SFCC Deployment Setup** - Configured `dw.json` with proper hostname, username, password, version, and cartridges path for Managed Runtime deployment.
+- **Project Structure Reorganization** - Moved `scapi_hooks` to root level for better organization alongside the new `plugin_custom_api` cartridge, outside the default cartridges folder.
 - **UI Enhancements** - Updated product tile component to visually indicate items already in the basket using opacity styling for better user experience.
 
 For the latest deployment, run `npm run push` to upload changes to the Managed Runtime environment.
