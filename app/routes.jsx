@@ -55,6 +55,7 @@ const Wishlist = loadable(() => import('./pages/account/wishlist'), {
     fallback
 })
 const PageNotFound = loadable(() => import('./pages/page-not-found'))
+const LoyaltyDetails = loadable(() => import('./pages/loyalty-details'), {fallback})
 
 export const routes = [
     {
@@ -134,6 +135,10 @@ export const routes = [
     {
         path: '/store-locator',
         component: StoreLocator
+    },
+    {
+        path: '/loyalty',
+        component: LoyaltyDetails
     },
     {
         path: '*',
